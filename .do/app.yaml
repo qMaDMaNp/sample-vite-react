@@ -6,3 +6,10 @@ services:
     deploy_on_push: false
     repo: digitalocean/sample-vite-react
   name: sample-vite-react
+  envs:
+    - key: VITE_SERVER_URL
+      scope: BUILD_TIME
+      value: hello_world
+    - key: VITE_SERVER_URL1
+      scope: RUN_TIME
+      value: little_teapot

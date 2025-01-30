@@ -6,3 +6,10 @@ spec:
       branch: main
       repo_clone_url: https://github.com/digitalocean/sample-vite-react.git
     name: sample-vite-react
+    envs:
+    - key: VITE_SERVER_URL2
+      scope: BUILD_TIME
+      value: hello_world2
+    - key: VITE_SERVER_URL3
+      scope: RUN_TIME
+      value: little_teapot3
