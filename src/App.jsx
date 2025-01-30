@@ -3,6 +3,14 @@ import viteLogo from '/vite.svg'
 import './App.css'
 
 function App() {
+  console.log(123123);
+  console.log(import.meta.env.VITE_SERVER_URL, process.env.VITE_SERVER_URL);
+  console.log(import.meta.env.VITE_SERVER_URL1, process.env.VITE_SERVER_URL1);
+  console.log(import.meta.env.VITE_SERVER_URL2, process.env.VITE_SERVER_URL2);
+  console.log(import.meta.env.VITE_SERVER_URL3, process.env.VITE_SERVER_URL3);
+  console.log(import.meta.env.VITE_KAKA, process.env.VITE_KAKA);
+  console.log(import.meta.env.VITE_BABKA, process.env.VITE_BABKA);
+
   return (
     <>
       <div className="app min-h-screen text-blue-200 flex items-center flex-col p-20">
